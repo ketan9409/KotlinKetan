@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="inheritx.app.kotlintest.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+
+        <EditText
+            android:id="@+id/edtFirstItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter First value"
+            android:inputType="number"
+             />
+
+        <EditText
+            android:id="@+id/edtSecondItems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Second value"
+            android:layout_below="@+id/edtFirstItem"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/buttonTotl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Total"
+            android:layout_below="@+id/edtSecondItems"/>
+
+        <TextView
+            android:id="@+id/txtDisplyTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonTotl"
+            android:text="xxxxxx"
+            />
+    </RelativeLayout>
+</RelativeLayout>
