@@ -31,6 +31,7 @@ open class MainActivity : AppCompatActivity(), View.OnClickListener {
     fun init() {
 
 
+        //test by ketan
         mEdittextFirstItem = findViewById(R.id.edtFirstItem) as EditText
         mEdittextSecondItem = findViewById(R.id.edtSecondItems) as EditText
 
